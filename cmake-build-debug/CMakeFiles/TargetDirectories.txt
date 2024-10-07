@@ -1,0 +1,3 @@
+/Users/nikzan/CLionProjects/lab7oct24/cmake-build-debug/CMakeFiles/lab7oct24.dir
+/Users/nikzan/CLionProjects/lab7oct24/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/nikzan/CLionProjects/lab7oct24/cmake-build-debug/CMakeFiles/rebuild_cache.dir
