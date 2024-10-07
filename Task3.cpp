@@ -1,7 +1,7 @@
 #include <iostream>
 #include <fstream>
 
-void writeFibonacciInRange(int a, int b, const std::string& filename) {
+void writeFibonacciInRange(int a, int b, const std::string& filename) {  // const link for filename to avoid changing it
     std::ofstream outFile(filename);
     if (!outFile.is_open()) {
         std::cerr << "Unable to open file for writing" << std::endl;

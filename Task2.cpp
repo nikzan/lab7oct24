@@ -4,8 +4,8 @@
 
 bool containsDigit(int number, int digit) {
     std::string numStr = std::to_string(number);
-    char digitChar = '0' + digit;
-    return numStr.find(digitChar) != std::string::npos;
+    char digitChar = '0' + digit; // convert digit to char (5 -> '5')
+    return numStr.find(digitChar) != std::string::npos; // check if the digit is in the number (npos means not found)
 }
 
 int main() {

@@ -16,7 +16,7 @@ int main() {
 
     for (int i = 0; i < N; ++i) {
         file >> number;
-        allPositive = allPositive && (number > 0);
+        allPositive = allPositive && (number > 0); // changing allPositive to false if number is not positive
     }
 
     file.close();
